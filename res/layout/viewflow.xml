@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.read.watch"
+    xmlns:app1="http://schemas.android.com/apk/res/com.read.watch"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/vf_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <FrameLayout
+                android:id="@+id/framelayout"
+                android:layout_width="fill_parent"
+                android:layout_height="196dp"
+                android:background="#ffffff" >
+
+                <org.taptwo.android.widget.ViewFlow
+                    android:id="@+id/viewflow"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent" >
+                </org.taptwo.android.widget.ViewFlow>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:background="#88252525"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="3dip" >
+
+                    <org.taptwo.android.widget.CircleFlowIndicator
+                        android:id="@+id/viewflowindic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_weight="0.15"
+                        android:padding="2dip"
+                        app1:activeColor="#00ffff"
+                        app1:activeType="fill"
+                        app1:circleSeparation="20dip"
+                        app1:inactiveColor="#ffffff"
+                        app1:inactiveType="fill"
+                        app1:radius="4dip" />
+                </LinearLayout>
+            </FrameLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="5dp"
+    android:drawingCacheQuality="high"
+    android:gravity="top"
+    android:minHeight="70.0dip"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/infophoto"
+        android:layout_width="101dip"
+        android:layout_height="100dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/p1"
+        android:padding="2.0dip"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/infophoto"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/infophoto"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/infotitile"
+            android:layout_width="fill_parent"
+            android:layout_height="43dp"
+            android:layout_gravity="top"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:singleLine="false"
+            android:text="  标题  "
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/infocontent"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:ellipsize="marquee"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="   内容  "
+            android:textSize="13.0sp" />
+
+        <TextView
+            android:id="@+id/infostate"
+             android:ellipsize="marquee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="  状态   "
+           
+             android:textSize="12.0sp"
+             />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/infotime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:ellipsize="marquee"
+                android:text="时间"
+                android:textSize="12.0sp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="       用户名："
+                  android:textSize="12.0sp" />
+
+            <TextView
+                android:id="@+id/usernameshow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="5dp"
+                android:text="yonghuming"
+                android:textSize="12.0sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

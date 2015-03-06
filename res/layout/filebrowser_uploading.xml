@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp" >
+
+    <Button
+        android:id="@+id/temppic"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal" />
+
+    <ProgressBar
+        android:id="@+id/pb_filebrowser_uploading"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+
+	<TextView
+	    android:id="@+id/tv_filebrowser_uploading"
+	    android:layout_width="280dp"
+	    android:layout_height="wrap_content"
+	    android:textColor="#ffffff" />
+
+</LinearLayout>

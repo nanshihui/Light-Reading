@@ -1,0 +1,2 @@
+# Light-Reading
+Reading now become more and more bloated, gradually lost  the feeling of reading like before, the goal of this application is a lightweight application to read, there is not much modification, take you to recover the initial reading, just like the newspaper we read every day. This application is an Android application, continues to improve, and hope people who  have inspired ,  can help with me to make it better !~
